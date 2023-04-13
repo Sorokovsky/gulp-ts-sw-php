@@ -1,5 +1,5 @@
 <?php 
-function head($title, $descripton, $keywords){
+function head($title, $descripton, $keywords): string{
     $headTemplate = "<head>
     <meta charset='UTF-8' />
     <meta http-equiv='X-UA-Compatible', content='IE=edge'/>
